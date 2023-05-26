@@ -1,0 +1,129 @@
+.logo{
+    height:70px;
+    width:250px;
+    float:left;
+}
+nav{
+	background-color: white;
+	font-size:20px;
+	width:100%;
+}
+
+
+*{
+    box-sizing: border-box;
+     font-family:Calibri;
+}
+html{
+    height:100%;
+}
+body{
+	background-color: #F4F4F4;
+	height:100%;
+	 display:flex;
+	 flex-direction:column;
+}
+.back-btn {
+    background-color:white;
+	width:30%;
+	border:solid 2px white;
+	border-radius: 5px;
+	display:block;
+	text-align:right;
+}
+
+footer{
+ background: rgba(236, 236, 236, 0.7);
+ opacity:0.7;
+ font-weight:bold;
+}
+
+.littleSpace{
+    height:10px;
+}
+
+.hamburgerMenu{
+    border-color: #CBADDD;
+    border-width:3px;
+}
+.navbar-toggler:focus{
+    color: #CBADDD;
+
+}
+.marginAuto{
+margin:auto;}
+
+.centerText{
+    text-align:center;
+}
+.echoDesign{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+.hamburgerMenu .navbar-toggler-icon {
+ background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(213, 184, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#menuHeading{
+    font-weight:bold;
+    font-size:25px;
+}
+main{
+    flex:1;
+}
+#goals tr:nth-child(even){background-color:#E8E8E8;}
+#goals tr:nth-child(odd){background-color:white;}
+
+#goals tr:hover {background-color: #ddd;}
+
+#goals {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+#svg{
+    height:30px;
+    color:white;
+}
+
+#goals th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color:#CBADDD;
+  color: white;
+}
+
+#goals td, #goals th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table,th,tr{
+    border:1px solid;
+    text-align:center;
+    font-size:18px;
+}
+@media(max-width: 1000px) {
+
+}
+@media(max-width: 780px) {
+     #goals {width: 100%;}
+
+}
+@media(max-width: 680px) {
+     table,th,tr{font-size:16px;}
+     .echoDesign{font-size:20px;}
+
+}
+@media screen and (max-width: 576px) {
+    .logo{height:70px;width:180px;}
+    .navbar-toggler-icon{width: 20px;height: 20px;}
+    #menuHeading{font-size:25px;}
+}
+@media screen and (max-width: 450px) {
+    .logo{height:50px;width:140px;}
+    .navbar-toggler .navbar-toggler-icon{width:10px;height:10px;padding:8px 8px 8px 8px;}
+    #menuHeading{font-size:18px;}
+    .nav-link{font-size:18px;}
+}
